@@ -8,7 +8,7 @@ const recipe_schema = new mongoose.Schema(
         time: String,
         calories: String,
         ingredient: String,
-        measurement: String,
+        // measurement: String,
         instructions: String
     },
     { timestamps: true }

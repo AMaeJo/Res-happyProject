@@ -2,7 +2,7 @@
 
 A place to store the hundreds of recipes I have received from various friends and family members.
 
-TO-DO: basically make every bit of front-end look pretty, finish the Homepage, 
+TO-DO: basically make every bit of front-end look pretty, finish front-end for everything
 
 I am behind schedule. Whoops.
 
