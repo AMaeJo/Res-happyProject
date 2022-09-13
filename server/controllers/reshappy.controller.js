@@ -19,11 +19,11 @@ module.exports = {
             .catch((err) => console.log(err));
     },
 
-    find_by_category: (req, res) => {
-        Recipe.findByCategory({ catergory: req.params.category })
-            .then((oneRecipeCategory) => res.json(oneRecipeCategory))
-            .catch((err) => console.log(err));
-    },
+    // find_by_category: (req, res) => {
+    //     Recipe.findByCategory({ catergory: req.params.category })
+    //         .then((oneRecipeCategory) => res.json(oneRecipeCategory))
+    //         .catch((err) => console.log(err));
+    // },
 
     update: (req, res) => {
         Recipe.findByIdAndUpdate({ _id: req.params.id }, req.body, {

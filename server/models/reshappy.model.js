@@ -5,10 +5,10 @@ const recipe_schema = new mongoose.Schema(
         name: String,
         creator: String,
         category: String,
-        time: String,
+        time: integer,
         calories: String,
         ingredient: String,
-        measurement: String,
+        // measurement: String,
         instructions: String
     },
     { timestamps: true }
