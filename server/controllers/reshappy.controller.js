@@ -4,7 +4,9 @@ module.exports = {
     create_recipe: (req, res) => {
         Recipe.create(req.body)
             .then((newRecipe) => res.json(newRecipe))
-            .catch((err) => console.log(err));
+            .catch((err) => {
+                res.status(400).json({ err });
+            });
     },
 
     get_all: (req, res) => {
