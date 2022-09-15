@@ -12,13 +12,17 @@ module.exports = {
     get_all: (req, res) => {
         Recipe.find({})
             .then((allRecipes) => res.json(allRecipes))
-            .catch((err) => console.log(err));
+            .catch((err) => {
+                res.status(400).json({ err });
+            });
     },
 
     get_id: (req, res) => {
         Recipe.findOne({ _id: req.params.id })
             .then((oneRecipe) => res.json(oneRecipe))
-            .catch((err) => console.log(err));
+            .catch((err) => {
+                res.status(400).json({ err });
+            });
     },
 
     // find_by_category: (req, res) => {
@@ -33,13 +37,17 @@ module.exports = {
             runValidators: true
         })
             .then((updateRecipe) => res.json(updateRecipe))
-            .catch((err) => console.log(err));
+            .catch((err) => {
+                res.status(400).json({ err });
+            });
     },
 
     delete: (req, res) => {
         Recipe.deleteOne({ _id: req.params.id })
             .then((deleteRecipe) => res.json(deleteRecipe))
-            .catch((err) => console.log(err));
+            .catch((err) => {
+                res.status(400).json({ err });
+            });
     },
 
 };
