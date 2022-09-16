@@ -1,0 +1,117 @@
+button {
+  background-color:lightseagreen;
+  color:aliceblue;
+  height: 35px;
+  border-radius: 10px;
+  border-color: white;
+  font-size: 19px;
+}
+
+.banner {
+  background-color:lightseagreen;
+  width:auto;
+  margin-bottom: 50px;
+  height: 515px;
+}
+
+.text-1 {
+  text-align: center;
+  font-family: serif;
+  padding-top: 145px;
+}
+
+.RecBox {
+  /* border-top: 50px solid steelblue; */
+  margin: 50px;
+  width:auto;
+  display: flex;
+  justify-content: center;
+}
+
+.newRec {
+  border: 5px solid darkgray;
+  border-radius: 15px;
+  text-align: center;
+  font-family: serif;
+  padding:30px;
+  margin:30px;
+}
+
+.allRec {
+  border: 5px solid darkgray;
+  border-radius: 15px;
+  text-align: center;
+  font-family: serif;
+  padding:30px;
+  margin:30px;
+}
+
+.Banner-2 {
+  background-color:lightseagreen;
+  width:auto;
+  margin-bottom: 50px;
+  height: 65px;
+}
+
+.text-2 {
+  text-align: left;
+  font-family: serif;
+  padding-top:11px;
+  padding-left:320px;
+  padding-right: 310px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.submitButton {
+  background-color:lightseagreen;
+  color:aliceblue;
+  height: 35px;
+  border-radius: 10px;
+  border-color: white;
+  font-size: 19px;
+}
+
+.RecForm {
+  background-color: lightcyan;
+  border: 5px solid darkgray;
+  border-radius: 15px;
+  margin: auto;
+  width:900px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-1 {  
+  margin:50px;
+}
+
+.form-2 {  
+  margin:50px;
+}
+
+.textarea {
+  font-family: serif;
+}
+
+.showRecPage {
+  text-align: left;
+  font-family: serif;
+  margin:auto;
+  display: flex;
+} 
+
+.allRecipes {
+  background-color: lightcyan;
+  border: 5px solid darkgray;
+  border-radius: 15px;
+  text-align: left;
+  font-family: serif;
+  width: 500px;
+  padding-left:30px;
+  padding-bottom:30px;
+  padding-top:10px;
+  margin:auto
+  ;
+}
+
